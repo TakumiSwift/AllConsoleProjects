@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1)HelloWorld", "1)HelloWorld", "{B99F5329-8F77-4A9C-B489-6718AEFB5D88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2)Calculating", "2)Calculating", "{F62C62D7-DCA1-48C4-A916-804D158A220D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3)Cycles", "3)Cycles", "{38483528-577B-4080-84A1-821C667A8F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldConsoleApp", "AllConsoleProjects\Projects\HelloWorldConsoleApp\HelloWorldConsoleApp\HelloWorldConsoleApp.csproj", "{1BEFF8DE-0ADC-4B6A-B71A-AFF860D5575E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclesConsoleApp", "AllConsoleProjects\Projects\CyclesConsoleApp\CyclesConsoleApp\CyclesConsoleApp.csproj", "{C15989BB-50DD-497B-95FB-F214C32330BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatingConsoleApp", "AllConsoleProjects\Projects\CalculatingConsoleApp\CalculatingConsoleApp\CalculatingConsoleApp.csproj", "{64B07DC7-A270-4A4F-9012-C2CE0DF62E68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BEFF8DE-0ADC-4B6A-B71A-AFF860D5575E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEFF8DE-0ADC-4B6A-B71A-AFF860D5575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEFF8DE-0ADC-4B6A-B71A-AFF860D5575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEFF8DE-0ADC-4B6A-B71A-AFF860D5575E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15989BB-50DD-497B-95FB-F214C32330BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15989BB-50DD-497B-95FB-F214C32330BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15989BB-50DD-497B-95FB-F214C32330BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15989BB-50DD-497B-95FB-F214C32330BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B07DC7-A270-4A4F-9012-C2CE0DF62E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B07DC7-A270-4A4F-9012-C2CE0DF62E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B07DC7-A270-4A4F-9012-C2CE0DF62E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B07DC7-A270-4A4F-9012-C2CE0DF62E68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BEFF8DE-0ADC-4B6A-B71A-AFF860D5575E} = {B99F5329-8F77-4A9C-B489-6718AEFB5D88}
+		{C15989BB-50DD-497B-95FB-F214C32330BE} = {38483528-577B-4080-84A1-821C667A8F21}
+		{64B07DC7-A270-4A4F-9012-C2CE0DF62E68} = {F62C62D7-DCA1-48C4-A916-804D158A220D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77BCEF94-85B9-42CE-A329-EBE265BE5C5E}
+	EndGlobalSection
+EndGlobal
