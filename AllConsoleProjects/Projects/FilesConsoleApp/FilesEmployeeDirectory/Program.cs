@@ -67,11 +67,11 @@ namespace FilesEmployeeDirectory
             Console.WriteLine("ID Дата добавления Ф.И.О.\tВозраст Рост Дата рождения\tМесто рождения");
             using (StreamReader output = new StreamReader(path))
             {
-                string[] dataAll = output.ReadToEnd().Split('\r');
+                string[] dataAll = output.ReadToEnd().Split('\n');
                 string[] dataParam = new string[7];
                 for (int i = 0; i<dataAll.Length; i++)
                 {
-                    dataParam = dataAll[i].Split('#');
+                    dataParam = dataAll[i].Split('\t');
                     OutputToConsole(dataParam);
                 }
             }
@@ -89,9 +89,9 @@ namespace FilesEmployeeDirectory
                 for (int i = 0; i < param.Length; i++)
                 {
                     Console.Write($"Введите {param[i]}: ");
-                    input.Write($"{Console.ReadLine()}#");
+                    input.Write($"{Console.ReadLine()}\t");
                 }
-                input.Write("\r\n");
+                input.Write("\n");
             }
         }
 
@@ -124,7 +124,7 @@ namespace FilesEmployeeDirectory
         
         static void Main(string[] args)
         {
-            string pathToFile = @"F:\Visual Studio\Projects\AllConsoleProjects\AllConsoleProjects\Projects\FilesConsoleApp\FilesEmployeeDirectory\directory.txt";
+            string pathToFile = @"F:\Visual Studio\Projects\AllConsoleProjects\AllConsoleProjects\Projects\FilesConsoleApp\FilesEmployeeDirectory\directory.rtf";
             FileExist(pathToFile);
             Greeting();
             ProgramCycling(pathToFile);
